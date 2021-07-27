@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-body text-white;
+}
+
+::selection {
+  @apply text-black bg-accent;
+}
