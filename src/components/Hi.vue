@@ -38,12 +38,43 @@
       Check some links below and get to know me better.
     </p>
   </div>
-  <div ref="links" class="mt-8 flex items-center gap-3 flex-wrap before-enter">
+  <div ref="links" class="mt-8 flex items-center gap-4 flex-wrap before-enter">
     <!-- linkedin -->
     <a
       href="https://www.linkedin.com/in/dmitrij-tka%C4%8Denko/"
       rel="nofollow,norefferer"
     >
+      <svg
+        class="w-6 h-6 text-accent hover:text-white duration-150 ease-linear"
+        viewBox="0 0 25 25"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16.3789 8.63281C17.9702 8.63281 19.4963 9.26495 20.6215 10.3902C21.7468 11.5154 22.3789 13.0415 22.3789 14.6328V21.6328H18.3789V14.6328C18.3789 14.1024 18.1682 13.5937 17.7931 13.2186C17.418 12.8435 16.9093 12.6328 16.3789 12.6328C15.8485 12.6328 15.3398 12.8435 14.9647 13.2186C14.5896 13.5937 14.3789 14.1024 14.3789 14.6328V21.6328H10.3789V14.6328C10.3789 13.0415 11.011 11.5154 12.1363 10.3902C13.2615 9.26495 14.7876 8.63281 16.3789 8.63281V8.63281Z"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M6.37891 9.63281H2.37891V21.6328H6.37891V9.63281Z"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M4.37891 6.63281C5.48348 6.63281 6.37891 5.73738 6.37891 4.63281C6.37891 3.52824 5.48348 2.63281 4.37891 2.63281C3.27434 2.63281 2.37891 3.52824 2.37891 4.63281C2.37891 5.73738 3.27434 6.63281 4.37891 6.63281Z"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </a>
+    <!-- github -->
+    <a href="https://github.com/dmitrijt9" rel="nofollow,norefferer">
       <svg
         class="w-6 h-6 text-accent hover:text-white duration-150 ease-linear"
         viewBox="0 0 25 25"
