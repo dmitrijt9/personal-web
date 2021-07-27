@@ -24,9 +24,8 @@
       </button>
     </div>
     <div class="hidden md:inline-flex flex-1 gap-6 items-center justify-end">
-      <router-link class="text-base" to="/">&lt;hello&gt;</router-link>
-      <router-link class="text-base" to="/articles"
-        >&lt;articles&gt;</router-link
+      <router-link v-for="route in routes" class="text-base" :to="route.path"
+        >&lt;{{ route.label }}&gt;</router-link
       >
       <a class="text-base" href="mailto:dimot9@gmail.com">
         &lt;contact&gt;
@@ -65,11 +64,11 @@
             v-show="menuOpen"
             class="my-16 flex flex-1 flex-col justify-end items-end"
           >
-            <router-link class="inline-flex px-4 py-5 text-lg" to="/"
-              >&lt;hello&gt;</router-link
-            >
-            <router-link class="inline-flex px-4 py-5 text-lg" to="/articles"
-              >&lt;articles&gt;</router-link
+            <router-link
+              v-for="route in routes"
+              :to="route.path"
+              class="inline-flex px-4 py-5 text-lg"
+              >&lt;{{ route.label }}&gt;</router-link
             >
             <a
               class="inline-flex px-6 py-4 text-lg"
@@ -85,7 +84,7 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref, reactive } from "vue";
 import { MenuAlt4Icon, XIcon } from "@heroicons/vue/outline";
 export default {
   components: {
@@ -94,9 +93,23 @@ export default {
   },
   setup() {
     const menuOpen = ref(false);
-
+    const routes = reactive([
+      {
+        label: "home",
+        path: "/"
+      },
+      {
+        label: "articles",
+        path: "/articles"
+      },
+      {
+        label: "projects",
+        path: "/projects"
+      }
+    ]);
     return {
-      menuOpen
+      menuOpen,
+      routes
     };
   }
 };
