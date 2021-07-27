@@ -126,9 +126,12 @@ export default {
   transform: translate(0);
 }
 
-.fade-enter-active,
-.fade-leave-active {
+.fade-enter-active {
   transition: opacity 0.5s ease;
+}
+
+.fade-leave-active {
+  transition: opacity 1.2s ease;
 }
 
 .fade-enter-from,

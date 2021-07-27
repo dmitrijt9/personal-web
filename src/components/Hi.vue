@@ -162,7 +162,7 @@ p a {
 .before-enter {
   opacity: 0;
   transform: translateY(150px) scale(0.9);
-  transition: all 1s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 2s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
 .enter {
