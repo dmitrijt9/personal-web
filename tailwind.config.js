@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "jit",
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -10,6 +11,9 @@ module.exports = {
     },
     fontFamily: {
       body: ['"Helvetica Mono"', "monospace"]
+    },
+    boxShadow: {
+      DEFAULT: "3px 3px 0px 0px #01FFC3"
     }
   },
   variants: {
