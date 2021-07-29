@@ -10,6 +10,10 @@ html {
   @apply text-black bg-accent;
 }
 
+p a {
+  @apply underline hover:text-accent font-bold transition-colors duration-150 ease-linear;
+}
+
 .before-enter {
   opacity: 0;
   transform: translateY(150px) scale(0.9);

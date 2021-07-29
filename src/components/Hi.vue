@@ -63,9 +63,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-p a {
-  @apply underline hover:text-accent font-bold transition-colors duration-150 ease-linear;
-}
-</style>
