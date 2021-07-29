@@ -3,12 +3,15 @@
     <h1 ref="title" class="text-accent font-bold before-enter">
       Articles
     </h1>
-    <p ref="description" class="mt-5 max-w-2xl before-enter">
-      When I learn or create something new, I share my thoughts and experiences
-      with others. There are some of my articles.
-    </p>
-    <div ref="articleList" class="before-enter">
-      <ArticlesList class="mt-12 max-w-2xl" :articles="articles" />
+    <div ref="description" class="mt-5 max-w-2xl before-enter">
+      <p>
+        When I learn or create something new, I share my thoughts and
+        experiences with others. There are some of my articles.
+      </p>
+    </div>
+
+    <div ref="articleList" class="mt-12 max-w-2xl before-enter">
+      <ArticlesList :articles="articles" />
     </div>
   </div>
 </template>
