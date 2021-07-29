@@ -19,20 +19,24 @@
         rel="nofollow,norefferer"
         >CTU FEE</a
       >
-      I worked at multiple companies creating web applications. During last year
-      of bachelor's degree a decided to freelance and founded
+      I worked at a few companies creating web applications. During last year of
+      bachelor's degree I decided to freelance and founded
       <a href="https://dasher.cz" target="__blank">Dasher</a> with small group
       of developers and designers.
     </p>
     <p class="mt-3 leading-7">
       My daily driver stack is Docker, Typescript (NodeJS), Graphql and VueJS.
-      But always trying to select a technology which meets requierements of a
-      problem to be resolved.
+      But I always try to select a technology which meets requierements or is
+      best for resolving a problem.
     </p>
     <p class="mt-3 leading-7">
-      Sometimes, I also write some articles. I share things I learned or just
-      know about software. You can find them in
+      Sometimes, I also write articles. I share things I learned or experienced
+      about software. You can find them on
       <router-link to="/articles">&lt;articles&gt;</router-link> page.
+    </p>
+    <p class="mt-3 leading-7">
+      I mention a few projects I've been working on. You can find them on
+      <router-link to="/projects">&lt;projects&gt;</router-link> page.
     </p>
     <p class="mt-3 leading-7">
       Check some links below and get to know me better.
