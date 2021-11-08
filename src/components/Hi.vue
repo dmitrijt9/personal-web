@@ -11,6 +11,13 @@
       learn about programming and making things every day.
     </p>
 
+    <p before="″" class="mt-3 ml-3 italic leading-7 text-accent">
+      Checkout my current project, which brings Czech winemakers to online world
+      and connects them with their customers directly. See the link for more
+      info (Czech language only)
+      <a href="https://www.winemakers.cz" target="__blank">Winemakers</a>.
+    </p>
+
     <p class="mt-3 leading-7">
       During my studies at
       <a
@@ -21,13 +28,13 @@
       >
       I worked at a few companies creating web applications. During last year of
       bachelor's degree I decided to freelance and founded
-      <a href="https://dasher.cz" target="__blank">Dasher</a> with small group
-      of developers and designers.
+      <a href="https://www.dasher.cz" target="__blank">Dasher</a> with small
+      group of developers and designers.
     </p>
     <p class="mt-3 leading-7">
       My daily driver stack is Docker, Typescript (NodeJS), Graphql and VueJS.
-      But I always try to select a technology which meets requierements or is
-      best for resolving a problem.
+      But I always try to select a technology which meets requierements or suits
+      best for a problem to solve.
     </p>
     <p class="mt-3 leading-7">
       Sometimes, I also write articles. I share things I learned or experienced
