@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/slides/qest/field-resolver-dataloader/:asset",
+      "destination": "https://slides-qest-field-resolver-dataloader-dmitrijt9.vercel.app/:asset"
+    },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
