@@ -5,16 +5,14 @@
     </h1>
     <div ref="description" class="mt-5 max-w-2xl before-enter">
       <p>
-        My main focus these days is
-        <a href="https://dasher.cz" target="__blank">Dasher</a>. There we create
-        various web applications - client jobs and our own product. Some of them
-        are mentioned below.
+        My main focus these days is job in
+        <a href="https://qest.cz/" target="__blank">Qest</a>, but I also create
+        some new ideas and products in my free time.
       </p>
       <p class="mt-3">
         As a freelancer I also externally help digital agency
         <a href="https://2fresh.cz" target="__blank">2Fresh</a> with their tech
-        stack and time-to-time build some web app. Mostly competitions advised
-        by companies like Nestle, Mars and others.
+        stack and time-to-time build some web app.
       </p>
       <p class="mt-3">
         Here are some of my projects from school, various work opportunities or
@@ -38,6 +36,15 @@ export default {
   data() {
     return {
       projects: [
+        {
+          title: "Onscoutline",
+          description:
+            "Onscoutline is a product of my diploma thesis at VSE. It's a web platform that extracts, transforms and publishes data and statistics about all Czech football players.",
+          link: {
+            label: "See Github repo",
+            url: "https://github.com/dmitrijt9/onscoutline"
+          }
+        },
         {
           title: "Ekiskincare personal and booking web",
           description:
@@ -87,7 +94,7 @@ export default {
         {
           title: "Budweiser Mail Service",
           description:
-            "Mail service API for web: https://www.budejovickybudvar.cz, which sends emails based on form that was filled and parameters in form selected. Project for 2Fresh."
+            "Mail service API for web: https://www.budejovickybudvar.cz, which sends emails based on form that was filled and parameters in form selected. Project was built under the 2Fresh company."
         },
         {
           title: "Currates",
