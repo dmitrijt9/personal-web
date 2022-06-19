@@ -34,8 +34,8 @@
       backend developer.
     </p>
     <p class="mt-3 leading-7">
-      My daily driver stack is Docker, Typescript (NodeJS), Graphql and VueJS.
-      But I always try to select a technology which meets requierements or suits
+      My main tech stack is Docker, Typescript (NodeJS), Graphql and VueJS. But
+      I always try to select a technology which meets requierements or suits
       best for a problem to solve.
     </p>
     <p class="mt-3 leading-7">
